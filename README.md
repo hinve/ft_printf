@@ -13,3 +13,26 @@ ft_printf/
 ├── Makefile          # Compilation scripts.
 └── README.md         # Project description.
 ```
+## Usage
+To use **ft_printf** on your own project:
+1. Clone the repository on your local machine
+   ```
+   $ git clone https://github.com/hinve/ft_printf.git ft_printf
+   $ cd ft_printf
+   ```
+2. Compile the library
+   ```
+   $ make
+   ```
+3. Include the library into your project
+   ```
+   #include "ft_printf.h"
+
+    int main(void)
+    {
+        ft_printf("Hola, %s!\n", "mundo");
+        return 0;
+    }
+   ```
+## Contributions
+This project is mainly for my personal learning, but if you have any suggestions or improvements, feel free to contact me about it :).
