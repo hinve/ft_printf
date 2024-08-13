@@ -34,5 +34,9 @@ To use **ft_printf** on your own project:
         return 0;
     }
    ```
+4. Compile your project with mine
+   ```
+   $ gcc -L. -lftprintf -o your_program your_program.c
+   ```
 ## Contributions
 This project is mainly for my personal learning, but if you have any suggestions or improvements, feel free to contact me about it :).
