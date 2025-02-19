@@ -1,4 +1,4 @@
-# Ft_printf -> Replica de la printf original <-
+# Ft_printf -> Replica de printf original <-
 
 **Ft_printf** es un proyecto de las escuelas 42 que consiste en recrear la función original **printf** de stdio.h. El objetivo del proyecto es profundizar en el manejo de argumentos variables, trabajar con diferentes formatos de salida y obtener una mejor comprensión de **printf**.
 
