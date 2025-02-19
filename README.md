@@ -1,30 +1,34 @@
-# Ft_printf ->Replicate the original printf<-
-**Ft_printf** is a 42 schools project that involves recreating the original **printf** function from stdio.h. The goal of the project is to delve into hadling variable arguments, work with different output formats, and gain a better undestanding of **printf**.
-## Features
-- Support for the main format specifiers: **c**, **s**, **p**, **d**, **u**, **x**, **X**, **%**.
-- Handling variable arguments with **va_list**.
-- Conversion of integers to different numeric bases like: decimal, hexadecimal, etc.
-- Implementation of memory pointer printing.
-## Project structure
+# Ft_printf -> Replica de la printf original <-
+
+**Ft_printf** es un proyecto de las escuelas 42 que consiste en recrear la función original **printf** de stdio.h. El objetivo del proyecto es profundizar en el manejo de argumentos variables, trabajar con diferentes formatos de salida y obtener una mejor comprensión de **printf**.
+
+## Características
+- Soporte para los principales especificadores de formato: **c**, **s**, **p**, **d**, **u**, **x**, **X**, **%**.
+- Manejo de argumentos variables con **va_list**.
+- Conversión de enteros a diferentes bases numéricas como: decimal, hexadecimal, etc.
+- Implementación de la impresión de punteros de memoria.
+
+## Estructura del proyecto
+
 ```
 ft_printf/
-├── ft_*.c            # Whole .c files.
-├── ft_printf.h       # Library.
-├── Makefile          # Compilation scripts.
-└── README.md         # Project description.
+├── ft_*.c            # Arhcivos .c.
+├── ft_printf.h       # Librería.
+├── Makefile          # Scripts de compilación.
+└── README.md         # Descripción del proyecto.
 ```
-## Usage
-To use **ft_printf** on your own project:
-1. Clone the repository on your local machine
+## Uso
+Para usar **ft_printf** en tu propio proyecto:
+1. Clona el repositorio en tu máquina local
    ```
    $ git clone https://github.com/hinve/ft_printf.git ft_printf
    $ cd ft_printf
    ```
-2. Compile the library
+2. Compila la librería
    ```
    $ make
    ```
-3. Include the library into your project
+3. Incluye la libreria en tu proyecto
    ```
    #include "ft_printf.h"
 
@@ -34,9 +38,11 @@ To use **ft_printf** on your own project:
         return 0;
     }
    ```
-4. Compile your project with mine
+4. Compila tu proyecto con el mío
    ```
    $ gcc -L. -lftprintf -o your_program your_program.c
    ```
-## Contributions
-This project is mainly for my personal learning, but if you have any suggestions or improvements, feel free to contact me about it :).
+   
+## Contribuciones
+Este proyecto es principalmente para mi aprendizaje personal, pero si tienes sugerencias o mejoras, no dudes en contactarme sobre ello :).
+
